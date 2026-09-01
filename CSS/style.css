@@ -1,0 +1,13 @@
+body{
+    background-image: url(../Assets/bg_tile.jpg);
+    background-repeat: round;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.header{
+    width: 100vw;
+    align-items: center;
+    color: white;
+    display: flex;
+}
