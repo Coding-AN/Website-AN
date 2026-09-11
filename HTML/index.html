@@ -7,17 +7,36 @@
         <link rel="stylesheet" href="../CSS/style.css">
 
             <nav class="navbar">
-                <a href="#about" style="margin-left: 5px; color: black; text-decoration: none;">About Me</a>
-                <a href="#projects " style="margin-left: 5px; color: black; text-decoration: none;">My Projects</a>
+                <a href="#about" style="margin: 5px; color: black; text-decoration: none;">About Me</a>
+                <a href="#current" style="margin: 5px; color: black; text-decoration: none;">Current Ventures</a>
+                <a href="#projects " style="margin: 5px; color: black; text-decoration: none;">My Projects</a>
             </nav>
     </head>
     <body>
+        <!--Fix Scaling of all elements-->
         <div class="header">
-                <img src="../Assets/mii_hello.png" width="240" height="240" alt="My Mii">
+                <img src="../Assets/mii_hello.png" max-width="240" height="240" alt="My Mii">
             <div style="text-align: center;">
                 <h1>Welcome!</h1>
-                <p>I'm Coding-AN and this is my website! This is where you can find my projects, as well as learn a little about me.</p>
+                <p>I'm Coding-AN, and this is my website! This is where you can find my projects, as well as learn a little about me.</p>
             </div>
         </div>
+
+        <section id="about">
+            <h2 class="heading">About Me</h2>
+            <p class="content">I'm Coding-AN and I'm currently in 10th grade. I'm very interested in tech and want to go into computer science when I'm older. I'm a huge Nintendo fan, and love to play video games. I also love to read, and can play 3 instruments: clarinet, tabla, and alto saxophone.</p>
+        </section>
+
+        <section id="current" class="current">
+            <h2 style="-ms-flex-order: 0; flex: 0 0 100%;">Currently...</h2>
+            <div class="nowcard">
+                <h3>Playing</h3>
+                <img class="scale-image" style="-ms-flex-order: 1;" src="https://cdn2.steamgriddb.com/grid/01639920c81fcc08b5b7a8db3d55723a.png">
+            </div>
+            <div class="nowcard">
+                <h3>Making</h3>
+                <img class="scale-image" style="-ms-flex-order: 2;" src="../Assets/Website-AN.png">
+            </div>
+        </section>
     </body>
 </html>
